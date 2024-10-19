@@ -4,14 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>i'm better</title>
+   <!-- <link rel="stylesheet" href="style.css"> -->
     <h2>What else can Javascript do!</h2>
     <p>it can change HTML attribute values</p>
     <p>in this case, it changes the value of the src attribute of an image</p>
-    <button onclick="document.getElementyById('myImage').src='C:\Users\mina7\OneDrive\Desktop\java-speedrun\pic_bulboff.gif'">Turn on the lightbulb!</button>
-    <img id="myImage" src="pic_bulboff.gif"style="width:100px">
-    <button onclick="document.getElementyById('myImage').src='c:\Users\mina7\Downloads\pic_bulboff.gif'">Turn off the lightbulb!</button>
+    <button onclick="document.getElementById('myImage').src='images/pic_bulbon.gif'">Turn on the lightbulb!</button>
+    <img id="myImage" src="images/pic_bulboff.gif"style="width:100px">
+    <button onclick="document.getElementById('myImage').src='images/pic_bulboff.gif'">Turn off the lightbulb!</button>
 </head>
 <body>
-    
+<!---    <div id="darkModeContent"></div>
+    <script>
+        fetch('dark.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('darkModeContent').innerHTML = data;
+            });
+    </script> -->
+ <!--   <div class="container">
+        <h1>light/dark nide toggle</h1>
+        <p>click the toggle to switch b/t light and dark</p>
+        <div class="toggleContainer" id="themeToggle">
+            <svg class="sunIcon" xlms="http://www.w3.org/2000/svg" width="24"height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+            <svg class="moonIcon" xlmns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+        </div> -->
+    </div>
+    <!--<script src="script.js"></script>-->
 </body>
 </html>

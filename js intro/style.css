@@ -1,0 +1,52 @@
+:root {
+    --colorLight: #333;
+    --colorDark: #fff;
+}
+body {
+    font-family:Arial, sans-serif;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    margin: 0;
+    background: var(--colorLight);
+    color: var(--colorDark);
+    transition: background-color 0.5s, color 0.5s;
+
+}
+.darkMode {
+    background-color: var(--colorDark);
+    color: var(--colorLight);
+
+}
+
+.container {
+    text-align:center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.toggleContainer {
+    width:24px;
+    height: 24px;
+    transition: opacity 0.5s;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0 auto;
+}
+
+.moonIcon {
+    display:none;
+}
+
+.darkMode .sunIcon {
+    display:none;
+}
+
+.darkMode .moonIcon {
+    display:inline-block;
+}
+
